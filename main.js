@@ -38,3 +38,13 @@ let apple = false;
 let orange = true;
 let shouldGoToWork = key && documents && pen && (apple || orange);
 console.log(shouldGoToWork);
+
+// task 5
+let inputYourNumber = prompt("Введите ваше число");
+if ((inputYourNumber%3)==0 && (inputYourNumber%5)==0) {
+    alert("FizBuz");
+} if ((inputYourNumber%5)==0) {
+    alert("Fiz");
+} if ((inputYourNumber%3)==0) {
+    alert("Buz");
+} 
