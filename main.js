@@ -20,3 +20,12 @@ let width = 20;
     } else {
         console.log(width);
     }
+
+// task 3
+let i = 1;
+while (i < 21) {
+    if ((i%3)==0){
+        console.log(i);
+    }
+    i++;
+}
